@@ -104,6 +104,22 @@ body {
   color: var(--color-4);
 }
 
+.github-logo img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  background: #ffb6b9;
+  border-radius: 100%;
+  padding: 5px;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+}
+
+.github-logo img:hover {
+  background: #8ac6d1;
+}
+
 @keyframes rotate {
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
