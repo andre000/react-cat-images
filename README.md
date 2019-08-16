@@ -1,4 +1,4 @@
-# react-cat-images
+# react-cat-images 🐈
 
 Project made for studying React and React Hooks. Can be seen on this [link](http://andre000.github.io/react-cat-images).
 
