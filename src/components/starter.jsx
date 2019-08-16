@@ -57,7 +57,7 @@ export default () => {
       );
     }
 
-    if (!loading && imageWidth == '0') {
+    if (!loading && imageWidth === 0) {
       return (
         <div className="loading">
           <span role="img" aria-label="cat-face">
