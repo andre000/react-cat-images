@@ -57,6 +57,17 @@ export default () => {
       );
     }
 
+    if (!loading && imageWidth == '0') {
+      return (
+        <div className="loading">
+          <span role="img" aria-label="cat-face">
+            😻
+          </span>
+          <img src={image} alt="cat" width={imageWidth} height="auto" />
+        </div>
+      );
+    }
+
     if (!loading && image) {
       return (
         <div className="result">
